@@ -24,10 +24,12 @@ h2{
 .speaker {
     display:inline-block;
     width:25%;
-    min-height:100vh;
+    min-height:90vh;
+    max-height: 90vh;
     
     transition:width 500ms;
     position: relative;
+    background:rgb(165, 165, 165);
     
 }
 
@@ -135,14 +137,14 @@ h2{
     font-size: 1vh;
     padding-left: 92%;
     padding-right: 1%;
-
  }
+ /* 
 .speaker:nth-child(even) {
     background:rgb(165, 165, 165);
-}
+} */
 .image-container {
     position: relative;
-    height: 100vh; /* Adjust the height as needed */
+    height: 88vh; /* Adjust the height as needed */
     top:2vh;
     overflow-y: auto;
 }
