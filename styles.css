@@ -33,15 +33,20 @@
     width: 100%; /* Ensure the image fills the container */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove any default spacing */
+    position: relative;
+    top: 2vw;
+    
 }
 
-.speaker.active img {
-    width: 50%; /* Adjust the image width to 50% when speaker is active */
-}
+
 .container.active .speaker img {
-    width: 0%!important;   
+    width: 0%;   
    }
+   .speaker.active img {
+    width: 50%!important; /* Adjust the image width to 50% when speaker is active */
+}
 .speaker h1 {
+    text-align: center;
     position: absolute;
     top: 0; /* Position the paragraph at the top */
     width: 100%; /* Full width */
