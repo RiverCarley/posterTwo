@@ -61,7 +61,7 @@
 }
  .speaker p {
     position: absolute;
-    top: 2%; /* Position the paragraph at the top */
+    top: 2vw; /* Position the paragraph at the top */
     width: 48%; /* Full width */
     margin: 0; /* Remove default margin */
 
@@ -70,7 +70,7 @@
 } 
 .speaker.active p {
    position: absolute;
-    top: 2%; /* Position the paragraph at the top */
+    top: 2vw; /* Position the paragraph at the top */
     width: 47%; /* Full width */
     margin:0; /* Remove default margin */
     font-size: 1vw;
@@ -81,7 +81,7 @@
 }
 .speaker a {
     position: absolute;
-    top: 30%; /* Position the paragraph at the top */
+    top: 10vw; /* Position the paragraph at the top */
     width: 48%; /* Full width */
     margin: 0; /* Remove default margin */
 
@@ -90,7 +90,7 @@
 } 
 .speaker.active a {
     position: absolute;
-     top: 30%; /* Position the paragraph at the top */
+     top: 10vw; /* Position the paragraph at the top */
      width: 47%; /* Full width */
      margin:0; /* Remove default margin */
      font-size: 1vw;
