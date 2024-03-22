@@ -1,0 +1,71 @@
+* {
+    padding:0;
+    margin:0;
+}
+.container {
+    min-height:100vh;
+    transition:300ms;
+}
+
+
+.container.col2 {
+ 
+}
+
+.speaker {
+    display:inline-block;
+    width:25%;
+    min-height:100vh;
+    transition:width 500ms;
+    position: relative;
+    
+}
+
+.container.active .speaker {
+    width:5%;
+}
+
+.speaker.active {
+    width:85%!important;
+}
+
+.speaker img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default spacing */
+}
+
+.speaker.active img {
+    width: 50%; /* Adjust the image width to 50% when speaker is active */
+}
+.speaker h1 {
+    position: absolute;
+    top: 0; /* Position the paragraph at the top */
+    width: 100%; /* Full width */
+    margin: 0; /* Remove default margin */
+}
+.container.active .speaker h1 {
+ writing-mode: vertical-lr;   
+}
+.speaker.active h1 {
+    writing-mode: horizontal-tb; 
+}
+ .speaker p {
+    position: absolute;
+    top: 10%; /* Position the paragraph at the top */
+    width: 50%; /* Full width */
+    margin: 0; /* Remove default margin */
+ font-size: 0;
+ left: 50%;
+} 
+.speaker.active p {
+   position: absolute;
+    top: 10%; /* Position the paragraph at the top */
+    width: 50%; /* Full width */
+    margin: 0; /* Remove default margin */
+    font-size: 1vw;
+ 
+}
+.speaker:nth-child(even) {
+    background:rgb(165, 165, 165);
+}
