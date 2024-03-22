@@ -149,3 +149,18 @@ h2{
 .image-container::-webkit-scrollbar {
     display: none;
   }
+  @media only screen and (max-width: 1500px) {
+    .speaker.active a {
+     font-size: 2vh;
+    }
+    .speaker.active p {
+        font-size: 5%;
+    }
+    .container.active .speaker {
+        width:5%;
+    }
+    .speaker.active {
+        width:85%!important;
+    }
+    
+ }
