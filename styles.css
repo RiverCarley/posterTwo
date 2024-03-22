@@ -3,7 +3,7 @@
     margin:0;
 }
 .container {
-    min-height:100vh;
+    min-height:90vh;
     transition:300ms;
 }
 
@@ -76,4 +76,8 @@
 }
 .speaker:nth-child(even) {
     background:rgb(165, 165, 165);
+}
+.image-container {
+    height: 100%; /* Adjust the height as needed */
+    overflow-y: auto;
 }
