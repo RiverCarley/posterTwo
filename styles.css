@@ -12,6 +12,14 @@
 .container.col2 {
  
 }
+h1{
+    font-size: 5vh;
+    text-align: center;
+}
+h2{
+    font-size: 3vh;
+    text-align: center;
+}
 
 .speaker {
     display:inline-block;
@@ -24,11 +32,11 @@
 }
 
 .container.active .speaker {
-    width:5%;
+    width:1.5%;
 }
 
 .speaker.active {
-    width:85%!important;
+    width:95.5%!important;
 }
 
 .speaker img {
@@ -52,6 +60,7 @@
     top: 0; /* Position the paragraph at the top */
     width: 100%; /* Full width */
     margin: 0; /* Remove default margin */
+    font-size: 2VH;
 }
 .container.active .speaker h1 {
  writing-mode: vertical-lr;   
@@ -61,7 +70,7 @@
 }
  .speaker p {
     position: absolute;
-    top: 2vw; /* Position the paragraph at the top */
+    top: 2vh; /* Position the paragraph at the top */
     width: 48%; /* Full width */
     margin: 0; /* Remove default margin */
 
@@ -70,18 +79,17 @@
 } 
 .speaker.active p {
    position: absolute;
-    top: 2vw; /* Position the paragraph at the top */
+    top: 5vh; /* Position the paragraph at the top */
     width: 47%; /* Full width */
     margin:0; /* Remove default margin */
-    font-size: 1vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    font-size: 1vh;
+    padding-left: 1%;
+    padding-right: 1%;
     
  
 }
 .speaker a {
     position: absolute;
-    top: 10vw; /* Position the paragraph at the top */
     width: 48%; /* Full width */
     margin: 0; /* Remove default margin */
 
@@ -90,14 +98,44 @@
 } 
 .speaker.active a {
     position: absolute;
-     top: 10vw; /* Position the paragraph at the top */
+     top: 3vh; /* Position the paragraph at the top */
      width: 47%; /* Full width */
      margin:0; /* Remove default margin */
-     font-size: 1vw;
-     padding-left: 1vw;
-     padding-right: 1vw;
+     font-size: 1vh;
+     padding-left: 1%;
+     padding-right: 1%;
      
   
+ }
+ .a1{
+    position: absolute;
+    top: 0; /* Position the paragraph at the top */
+    width: 47%; /* Full width */
+    margin:0; /* Remove default margin */
+    font-size: 1vh;
+    padding-left: 52%;
+    padding-right: 1%;
+
+ }
+ .a2{
+    position: absolute;
+    top: 0; /* Position the paragraph at the top */
+    width: 47%; /* Full width */
+    margin:0; /* Remove default margin */
+    font-size: 1vh;
+    padding-left: 72%;
+    padding-right: 1%;
+
+ }
+ .a3{
+    position: absolute;
+    top: 0; /* Position the paragraph at the top */
+    width: 47%; /* Full width */
+    margin:0; /* Remove default margin */
+    font-size: 1vh;
+    padding-left: 92%;
+    padding-right: 1%;
+
  }
 .speaker:nth-child(even) {
     background:rgb(165, 165, 165);
