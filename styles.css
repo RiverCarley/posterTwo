@@ -38,6 +38,9 @@
 .speaker.active img {
     width: 50%; /* Adjust the image width to 50% when speaker is active */
 }
+.container.active .speaker img {
+    width: 0%!important;   
+   }
 .speaker h1 {
     position: absolute;
     top: 0; /* Position the paragraph at the top */
@@ -48,7 +51,7 @@
  writing-mode: vertical-lr;   
 }
 .speaker.active h1 {
-    writing-mode: horizontal-tb; 
+    writing-mode: horizontal-tb !important;
 }
  .speaker p {
     position: absolute;
