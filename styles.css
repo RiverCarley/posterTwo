@@ -154,7 +154,7 @@ h2{
      font-size: 2vh;
     }
     .speaker.active p {
-        font-size: 5%;
+        font-size: 2vh;
     }
     .container.active .speaker {
         width:5%;
