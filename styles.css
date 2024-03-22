@@ -3,7 +3,8 @@
     margin:0;
 }
 .container {
-    min-height:90vh;
+    min-height:50vh;
+    max-height: 200px!important;
     transition:300ms;
 }
 
@@ -16,6 +17,7 @@
     display:inline-block;
     width:25%;
     min-height:100vh;
+    
     transition:width 500ms;
     position: relative;
     
@@ -34,7 +36,6 @@
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove any default spacing */
     position: relative;
-    top: 2vw;
     
 }
 
@@ -60,24 +61,53 @@
 }
  .speaker p {
     position: absolute;
-    top: 10%; /* Position the paragraph at the top */
-    width: 50%; /* Full width */
+    top: 2%; /* Position the paragraph at the top */
+    width: 48%; /* Full width */
     margin: 0; /* Remove default margin */
+
  font-size: 0;
  left: 50%;
 } 
 .speaker.active p {
    position: absolute;
-    top: 10%; /* Position the paragraph at the top */
-    width: 50%; /* Full width */
-    margin: 0; /* Remove default margin */
+    top: 2%; /* Position the paragraph at the top */
+    width: 47%; /* Full width */
+    margin:0; /* Remove default margin */
     font-size: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    
  
 }
+.speaker a {
+    position: absolute;
+    top: 30%; /* Position the paragraph at the top */
+    width: 48%; /* Full width */
+    margin: 0; /* Remove default margin */
+
+ font-size: 0;
+ left: 50%;
+} 
+.speaker.active a {
+    position: absolute;
+     top: 30%; /* Position the paragraph at the top */
+     width: 47%; /* Full width */
+     margin:0; /* Remove default margin */
+     font-size: 1vw;
+     padding-left: 1vw;
+     padding-right: 1vw;
+     
+  
+ }
 .speaker:nth-child(even) {
     background:rgb(165, 165, 165);
 }
 .image-container {
-    height: 100%; /* Adjust the height as needed */
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+    top:2vh;
     overflow-y: auto;
 }
+.image-container::-webkit-scrollbar {
+    display: none;
+  }
