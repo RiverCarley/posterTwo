@@ -100,6 +100,7 @@ h2{
 }
 .speaker.active h1 {
     writing-mode: horizontal-tb !important;
+    
 
 }
  .speaker p {
@@ -259,7 +260,7 @@ color: white;
  @media only screen and (max-width: 400px) {
     .speaker.active a {
      font-size: 3vw;
-     top:70vh;
+     top:80vh;
     }
     .speaker.active p {
         font-size: 3vw;
