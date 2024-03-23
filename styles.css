@@ -191,7 +191,7 @@ h2{
  @media only screen and (max-width: 1200px) {
     .speaker.active a {
         font-size: 3vw;
-        top:90vh;
+        top:60vh;
        }
        .speaker.active p {
            font-size: 3vw;
@@ -248,7 +248,7 @@ h2{
  @media screen and (orientation: landscape) and (max-height: 1200px) {
     .speaker.active a {
         font-size: 2vw;
-        top:120vh;
+        top:130vh;
        }
        .speaker.active p {
            font-size: 2vw;
@@ -263,6 +263,7 @@ h2{
                    .a1{
                 top:0vh    ;
                    }
+                }
        @media screen and (orientation: landscape) and (max-height: 900px) {
         .speaker.active a {
             font-size: 2vw;
@@ -281,6 +282,7 @@ top:10vh;
            .a1{
         top:0vh  ;  
            }
+        }
            @media screen and (orientation: landscape) and (max-height: 300px) {
             .speaker.active a {
                 font-size: 2vw;
@@ -290,19 +292,4 @@ top:10vh;
                    font-size: 2vw;
                    top:16vh;
                }
-             
-    /* Styles specific to landscape orientation and maximum width of 800px */
-    /* Add your CSS rules here */
-  }
-
- /* @media only screen and (max-height: 400px) {
-    .speaker.active a {
-        font-size: 3vw;
-        top:35vh;
-       }
-       .speaker.active p {
-           font-size: 3vw;
-           top:3.5vh;
-       }
-    
- } */
+            }
