@@ -3,7 +3,7 @@
     margin:0;
 }
 body{
-    background-color:  rgb(146, 33, 33);;
+    background-color:  rgb(146, 33, 33);
 }
 .container {
     min-height:50vh;
@@ -21,7 +21,8 @@ h1{
     font-family: "owners", sans-serif;
     font-weight: 1000;
     font-style: normal;
-    color: black;
+    color:rgb(36, 36, 36);
+    
 }
 h2{
     font-size: 4vw;
@@ -29,7 +30,8 @@ h2{
     font-family: "owners", sans-serif;
     font-weight: 1000;
     font-style: normal;
-    color:black;
+    color:rgb(36, 36, 36);
+    
 }
 
 .speaker {
@@ -126,7 +128,7 @@ color: white;
  color:white;
 } 
 .speaker a:hover {
-    color: rgb(33, 44, 146); /* Change the text color to red on hover */
+    color:rgb(146, 33, 33);/* Change the text color to red on hover */
 }
 .speaker.active a {
     position: absolute;
@@ -225,7 +227,8 @@ color: white;
  @media only screen and (max-width: 800px) {
     .speaker.active a {
      font-size: 3vw;
-     top:90vh;
+     top:50vh;
+     /* 70 */
     }
     .speaker.active p {
         font-size: 3vw;
@@ -234,9 +237,10 @@ color: white;
     
  }
  @media only screen and (max-width: 500px) {
+    /* not pixel 6 */
     .speaker.active a {
      font-size: 3vw;
-     top:30vh;
+     top:60vh;
     }
     .speaker.active p {
         font-size: 3vw;
@@ -275,6 +279,7 @@ color: white;
                    }
                 }
        @media screen and (orientation: landscape) and (max-height: 900px) {
+        /* pixel 7 */
         .speaker.active a {
             font-size: 2vw;
             top:150vh;
