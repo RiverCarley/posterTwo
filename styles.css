@@ -126,7 +126,7 @@ color: white;
  color:white;
 } 
 .speaker a:hover {
-    color: rgb(146, 33, 33); /* Change the text color to red on hover */
+    color: rgb(33, 44, 146); /* Change the text color to red on hover */
 }
 .speaker.active a {
     position: absolute;
@@ -236,7 +236,7 @@ color: white;
  @media only screen and (max-width: 500px) {
     .speaker.active a {
      font-size: 3vw;
-     top:60vh;
+     top:30vh;
     }
     .speaker.active p {
         font-size: 3vw;
