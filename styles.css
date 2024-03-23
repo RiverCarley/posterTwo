@@ -13,20 +13,21 @@
  
 }
 h1{
-    font-size: 5vh;
+    font-size: 6vw;
     text-align: center;
 }
 h2{
-    font-size: 3vh;
+    font-size: 4vw;
     text-align: center;
 }
 
 .speaker {
     display:inline-block;
-    width:25%;
-    min-height:90vh;
-    max-height: 90vh;
-    
+    width:25vw;
+    min-height:1200px;
+    height: 79vh;
+    max-height:85vh;
+ cursor:pointer;   
     transition:width 500ms;
     position: relative;
     background:rgb(165, 165, 165);
@@ -34,11 +35,11 @@ h2{
 }
 
 .container.active .speaker {
-    width:1.5%;
+    width:3vw;
 }
 
 .speaker.active {
-    width:95.5%!important;
+    width:91vw!important;
 }
 
 .speaker img {
@@ -62,7 +63,8 @@ h2{
     top: 0; /* Position the paragraph at the top */
     width: 100%; /* Full width */
     margin: 0; /* Remove default margin */
-    font-size: 2VH;
+    font-size: 3vw;
+    cursor:pointer; /* Set the cursor image */
 }
 .container.active .speaker h1 {
  writing-mode: vertical-lr;   
@@ -81,10 +83,10 @@ h2{
 } 
 .speaker.active p {
    position: absolute;
-    top: 5vh; /* Position the paragraph at the top */
+    top: 12vh; /* Position the paragraph at the top */
     width: 47%; /* Full width */
     margin:0; /* Remove default margin */
-    font-size: 1vh;
+    font-size: 1vw;
     padding-left: 1%;
     padding-right: 1%;
     
@@ -100,10 +102,10 @@ h2{
 } 
 .speaker.active a {
     position: absolute;
-     top: 3vh; /* Position the paragraph at the top */
+     top: 38vh; /* Position the paragraph at the top */
      width: 47%; /* Full width */
      margin:0; /* Remove default margin */
-     font-size: 1vh;
+     font-size: 1vw;
      padding-left: 1%;
      padding-right: 1%;
      
@@ -112,30 +114,30 @@ h2{
  .a1{
     position: absolute;
     top: 0; /* Position the paragraph at the top */
-    width: 47%; /* Full width */
+    width: 97%; /* Full width */
     margin:0; /* Remove default margin */
-    font-size: 1vh;
-    padding-left: 52%;
+    font-size: 1vw;
+    padding-left: 1%;
     padding-right: 1%;
 
  }
  .a2{
     position: absolute;
-    top: 0; /* Position the paragraph at the top */
-    width: 47%; /* Full width */
+    top: 3vh; /* Position the paragraph at the top */
+    width: 97%; /* Full width */
     margin:0; /* Remove default margin */
-    font-size: 1vh;
-    padding-left: 72%;
+    font-size: 1vw;
+    padding-left: 1%;
     padding-right: 1%;
 
  }
  .a3{
     position: absolute;
-    top: 0; /* Position the paragraph at the top */
-    width: 47%; /* Full width */
+    top: 6vh; /* Position the paragraph at the top */
+    width: 97%; /* Full width */
     margin:0; /* Remove default margin */
-    font-size: 1vh;
-    padding-left: 92%;
+    font-size: 1vw;
+    padding-left:1%;
     padding-right: 1%;
  }
  /* 
@@ -144,25 +146,54 @@ h2{
 } */
 .image-container {
     position: relative;
-    height: 88vh; /* Adjust the height as needed */
-    top:2vh;
+    height: 67vh; /* Adjust the height as needed */
+    min-height: 1100px;
+    top:6.5vw;
     overflow-y: auto;
+
+}
+.image-container img{
+    cursor:ns-resize; /* Set the cursor image */
 }
 .image-container::-webkit-scrollbar {
     display: none;
   }
+  body::-webkit-scrollbar {
+    display: none;
+  }
   @media only screen and (max-width: 1500px) {
     .speaker.active a {
-     font-size: 2vh;
+     font-size: 2vw;
     }
     .speaker.active p {
-        font-size: 2vh;
+        font-size: 2vw;
     }
-    .container.active .speaker {
-        width:5%;
+    
+ }
+ @media only screen and (max-width: 1000px) {
+    .speaker.active a {
+     font-size: 3vw;
     }
-    .speaker.active {
-        width:85%!important;
+    .speaker.active p {
+        font-size: 3vw;
+    }
+    
+ }
+ @media only screen and (max-height: 1000px) {
+    .speaker.active a {
+     font-size: 2vw;
+    }
+    .speaker.active p {
+        font-size: 2vw;
+    }
+    
+ }
+ @media only screen and (max-height: 600px) {
+    .speaker.active a {
+     font-size: 2vw;
+    }
+    .speaker.active p {
+        font-size: 2vw;
     }
     
  }
