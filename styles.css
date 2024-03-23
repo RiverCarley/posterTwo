@@ -254,6 +254,15 @@ h2{
            font-size: 2vw;
            top:14vh;
        }
+       .a3{
+        top:20vh;
+                   }
+                   .a2{
+        top:10vh;
+                   }
+                   .a1{
+                top:0vh    ;
+                   }
        @media screen and (orientation: landscape) and (max-height: 900px) {
         .speaker.active a {
             font-size: 2vw;
@@ -270,7 +279,7 @@ top:20vh;
 top:10vh;
            }
            .a1{
-        top:0vh    
+        top:0vh  ;  
            }
            @media screen and (orientation: landscape) and (max-height: 300px) {
             .speaker.active a {
@@ -281,16 +290,7 @@ top:10vh;
                    font-size: 2vw;
                    top:16vh;
                }
-               a3{
-
-               }
-               a2{
-
-               }
-               a1{
-
-               }
-       
+             
     /* Styles specific to landscape orientation and maximum width of 800px */
     /* Add your CSS rules here */
   }
