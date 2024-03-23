@@ -245,7 +245,52 @@ h2{
     }
     
  }
- @media screen and (orientation: landscape) and (max-width: 800px) {
+ @media screen and (orientation: landscape) and (max-height: 1200px) {
+    .speaker.active a {
+        font-size: 2vw;
+        top:120vh;
+       }
+       .speaker.active p {
+           font-size: 2vw;
+           top:14vh;
+       }
+       @media screen and (orientation: landscape) and (max-height: 900px) {
+        .speaker.active a {
+            font-size: 2vw;
+            top:130vh;
+           }
+           .speaker.active p {
+               font-size: 2vw;
+               top:16vh;
+           }
+           .a3{
+top:20vh;
+           }
+           .a2{
+top:10vh;
+           }
+           .a1{
+        top:0vh    
+           }
+           @media screen and (orientation: landscape) and (max-height: 300px) {
+            .speaker.active a {
+                font-size: 2vw;
+                top:140vh;
+               }
+               .speaker.active p {
+                   font-size: 2vw;
+                   top:16vh;
+               }
+               a3{
+
+               }
+               a2{
+
+               }
+               a1{
+
+               }
+       
     /* Styles specific to landscape orientation and maximum width of 800px */
     /* Add your CSS rules here */
   }
