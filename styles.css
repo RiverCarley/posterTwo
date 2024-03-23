@@ -123,7 +123,11 @@ color: white;
 
  font-size: 0;
  left: 50%;
+ color:white;
 } 
+.speaker a:hover {
+    color: rgb(146, 33, 33); /* Change the text color to red on hover */
+}
 .speaker.active a {
     position: absolute;
      top: 44vh; /* Position the paragraph at the top */
