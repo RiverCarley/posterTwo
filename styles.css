@@ -92,7 +92,7 @@ h2{
 
 }
 .speaker h1:hover {
-    color: rgb(146, 33, 33); /* Change the text color to red on hover */
+    color: rgb(248, 0, 0); /* Change the text color to red on hover */
 }
 .container.active .speaker h1 {
  writing-mode: vertical-lr;   
