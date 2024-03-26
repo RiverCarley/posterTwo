@@ -344,6 +344,17 @@ color: white;
                                                 top:0vh    ;
                                                    } */
                                                 }
+                                                /* @media only screen and (min-width:2800px) and (min-height:1400px){
+                                                    .speaker.active a {
+                                                        font-size: 2vw;
+                                                        top:170vh;
+                                                       }
+                                                       .speaker.active p {
+                                                           font-size: 2vw;
+                                                           top:15vh;
+                                                       }
+                                                 
+                                                                } */
  @media screen and (orientation: landscape) and (max-height: 1200px) {
     .speaker.active a {
         font-size: 2vw;
