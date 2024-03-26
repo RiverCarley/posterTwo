@@ -224,11 +224,11 @@ color: white;
     /* pixel 6 */
     .speaker.active a {
         font-size: 3vw;
-        top:60vh;
+        top:40vh;
        }
        .speaker.active p {
            font-size: 3vw;
-           top:4vh;
+           top:2vh;
        }
        
     
@@ -258,6 +258,7 @@ color: white;
     
  }
  @media only screen and (max-width: 400px) {
+    /* not pixel 6 */
     .speaker.active a {
      font-size: 3vw;
      top:80vh;
@@ -269,6 +270,7 @@ color: white;
     
  }
  @media only screen and (max-height: 1400px) and (min-width:2200px) and (min-height:1000px){
+    /* not pixel 6 */
     .speaker.active a {
         font-size: 2vw;
         top:200vh;
@@ -277,16 +279,7 @@ color: white;
            font-size: 2vw;
            top:15vh;
        }
-       /* .a3{
-        top:20vh;
-                   }
-                   .a2{
-        top:10vh;
-                   }
-                   .a1{
-                top:0vh    ;
-                   } */
-                }
+ } 
                 @media only screen and (max-width:850px) and (max-height: 1200px) and (min-width:650px) and (min-height:700px){
                     .speaker.active a {
                         font-size: 2vw;
@@ -296,15 +289,7 @@ color: white;
                            font-size: 2vw;
                            top:8vh;
                        }
-                       /* .a3{
-                        top:20vh;
-                                   }
-                                   .a2{
-                        top:10vh;
-                                   }
-                                   .a1{
-                                top:0vh    ;
-                                   } */
+            
                                 }
                                 @media only screen and (max-width:1500px) and (min-width:800px) and (min-height:1200px){
                                     .speaker.active a {
@@ -315,15 +300,7 @@ color: white;
                                            font-size: 2vw;
                                            top:8vh;
                                        }
-                                       /* .a3{
-                                        top:20vh;
-                                                   }
-                                                   .a2{
-                                        top:10vh;
-                                                   }
-                                                   .a1{
-                                                top:0vh    ;
-                                                   } */
+                            
                                                 }
                                 @media only screen and (max-width:850px) and (max-height: 1200px) and (min-width:650px){
                                     .speaker.active a {
@@ -334,15 +311,7 @@ color: white;
                                            font-size: 2vw;
                                            top:8vh;
                                        }
-                                       /* .a3{
-                                        top:20vh;
-                                                   }
-                                                   .a2{
-                                        top:10vh;
-                                                   }
-                                                   .a1{
-                                                top:0vh    ;
-                                                   } */
+                                      
                                                 }
                                                 /* @media only screen and (min-width:2800px) and (min-height:1400px){
                                                     .speaker.active a {
